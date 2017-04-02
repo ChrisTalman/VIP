@@ -1,0 +1,13 @@
+Equiptment menu item within range only.
+Handle player loadouts at start of rounds.
+Handle VIP at end of rounds.
+Handle insufficient players during rounds.
+
+player setPos [19665.3,12796.6,0.00136566]
+
+systemChat format ['%1', [playersData, 'uid', getPlayerUID player] call functionGetArrayObjectWithVariableValue]
+
+Influence-style spotting of players and VIP.
+VIP falls from destroyed helicopter.
+Handle match victory conditions.
+Display VIP marker to ambush team while VIP is on ground.

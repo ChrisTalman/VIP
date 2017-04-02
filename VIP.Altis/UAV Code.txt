@@ -1,0 +1,5 @@
+newUAV = createVehicle ['B_UAV_01_F', getPos player, [], 0,""];
+
+createVehicleCrew newUAV;
+
+systemChat format ['%1', allUnits];
